@@ -69,8 +69,8 @@ Follow cloud platform [guide](https://user-guide.cloud-platform.service.justice.
     ...
     ```
 1. Raise PR in slack channel `#ask-cloud-platform`
+1. Mention downtime window in slack channel `#pact-broker`
 1. Merge > Triggers DB Upgrade (Downtime starts)
-1. Mention downtime window in slack channel `#pact-broker` 
 
 ### Troubleshooting DB
 Check Pact Broker logs: `kubectl logs -f --tail=500 <pod-name> -n <namespace>`
